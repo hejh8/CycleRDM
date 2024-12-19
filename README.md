@@ -127,7 +127,7 @@ python ir_test.py
 <details>
 <summary><strong>Low-light Image Enhancement Tasks</strong> (click to expand) </summary>
 
-![daclip](https://github.com/hejh8/CycleRDM/tree/main/figs/low-light.png)
+![CycleRDM](https://github.com/hejh8/CycleRDM/tree/main/figs/low-light.png)
 
 </details>
 
