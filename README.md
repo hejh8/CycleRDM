@@ -133,7 +133,7 @@ python ir_test.py
 
 
 #### Notice!!
-🙁 In testing we found that the current pretrained model is still difficult to process some real-world images  which might have distribution shifts with our training dataset (captured from different devices or with different resolutions or degradations). We regard it as a future work and will try to make our model more practical! We also encourage users who are interested in our work to train their own models with larger dataset and more degradation types.
+🙁 Since degradation datasets mostly contain only a single degradation label for each image, our current model has not been trained to recover multiple degradations in the same scene. Although we have demonstrated the performance stability and generalization capabilities of CycleRDM when extended for degradation tasks, this limitation has prevented us from effectively exploring recovery capabilities for realistic mixed degradation scenes.
 
 
 ---
