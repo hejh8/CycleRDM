@@ -3,7 +3,7 @@
 #### This is the official implementation code for [CycleRDM]().
 
 
-![CycleRDM](Fig/fig1.png)
+![CycleRDM](figs/fig1.png)
 
 ### Updates
 [**2024.12.20**] Added [dataset links](https://github.com/hejh8/CycleRDM#dataset-links) for training and testing of various tasks. <br>
@@ -120,7 +120,7 @@ python ir_test.py
 <details>
 <summary><strong>Image Restoration Tasks</strong> (click to expand) </summary>
 
-![CycleRDM](https://github.com/hejh8/CycleRDM/tree/main/figs/ir.jpg)
+![CycleRDM](https://github.com/hejh8/CycleRDM/tree/main/figs/ir.png)
 
 </details>
 
