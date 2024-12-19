@@ -79,7 +79,16 @@ python3 Random_select_data.py
 | Datasets      | [BSD](https://drive.google.com/drive/folders/1LKLCE_RqPF5chqWgmh3pj7cg-t9KM2Hd) | [RESIDE-6k](https://drive.google.com/drive/folders/1XVD0x74vKQ0-cqazACUZnjUOWURXIeqH?usp=drive_link) | Rain100H: [train](http://www.icst.pku.edu.cn/struct/att/RainTrainH.zip), [test](http://www.icst.pku.edu.cn/struct/att/Rain100H.zip) | [RainDrop](https://drive.google.com/open?id=1e7R76s6vwUJxILOcAsthgDLPSnOrQ49K) | [CBSD68](https://github.com/clausmichele/CBSD68-dataset?tab=readme-ov-file) | [CelebaHQ-256](https://drive.google.com/file/d/1oYDBcJLT5RDuC4k5C7xOMRkZ9N3kfexu/view?usp=sharing) |
 
 
-For noisy datasets, you can use this [script]() to generate LQ images. For restoration tasks, you can generate LQ images by adding facial occlusion via the [script]().
+Following the settings of DA-CLIP. For noisy datasets, you can use this [script]() to generate LQ images. For image inpainting restoration tasks, you can generate LQ images by adding facial occlusion via the [script]().
+```bash
+cd CycleRDM/scripts
+
+##denoising
+python denoising_LQ.py
+
+##inpainting
+python mask_inpaint.py
+```
 
 | Image Enhancement Task |                                    low-light                                    |                              underwater                             |                                    backlight                                  |                                                                                         
 |-------------|:-------------------------------------------------------------------------------:|:----------------------------------------------------------------------------------------------------:|:-----------------------------------------------------------------------------------------------------------------:|
