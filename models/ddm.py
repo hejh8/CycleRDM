@@ -318,8 +318,6 @@ class DenoisingDiffusion(object):
         self.args = args
         self.config = config
         self.device = config.device
-        # self.high_enhance0 = HFRM(in_channels=3, out_channels=64)
-        # self.high_enhance1 = HFRM(in_channels=3, out_channels=64)
         self.iqa_metric = pyiqa.create_metric('psnr', test_y_channel=True, color_space='rgb')
         self.model = Net(args, config) 
         self.model.to(self.device)
@@ -328,9 +326,6 @@ class DenoisingDiffusion(object):
         self.ema_helper = EMAHelper()
         self.ema_helper.register(self.model)
 
-        self.l2_loss = torch.nn.MSELoss()
-        self.l1_loss = torch.nn.L1Loss()
-        self.TV_loss = TVLoss()
 
         self.optimizer, self.scheduler = utils.optimize.get_optimizer(self.config, self.model.parameters())
         self.start_epoch, self.step = 0, 0
