@@ -6,9 +6,9 @@
 ![CycleRDM](figs/fig1.png)
 
 ### Updates
-[**2024.12.20**] Added [dataset links](https://github.com/hejh8/CycleRDM#dataset-links) for training and testing of various tasks. <br>
-[**2024.12.20**] The **pretrained weights**  of the four task models were released separately.  <br>
-[**2024.12.19**] Released test code for four image restoration tasks: image deraining, image denoising, image dehazing, and image inpainting. <br>
+[**2024.12.23**] Added [dataset links](https://github.com/hejh8/CycleRDM#dataset-links) for training and testing of various tasks. <br>
+[**2024.12.23**] The **pretrained weights**  of the four task models were released separately.  <br>
+[**2024.12.23**] Released test code for four image restoration tasks: image deraining, image denoising, image dehazing, and image inpainting. <br>
 
 ## How to Run the Code?
 
@@ -102,7 +102,7 @@ We will be releasing the training code shortly.
 
 
 #### Pretrained Models
-You can downlaod our pre-training models from [[Google Drive]](), Pre-trained models for all tasks will be published in the future.
+You can downlaod our pre-training models from [[Google Drive]](https://drive.google.com/drive/folders/1TbYBrxsTqPd8x6dqVLVoSU8JfL_3VtUu?usp=drive_link), Pre-trained models for all tasks will be published in the future.
 
 ### Evaluation
 Before performing the following steps, please download our pretrained model first. To evalute our method on image restoration, please modify the benchmark path and model path. 
