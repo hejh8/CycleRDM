@@ -6,9 +6,9 @@
 ![CycleRDM](figs/fig1.png)
 
 ### Updates
-[**2024.12.23**] Added [dataset links](https://github.com/hejh8/CycleRDM#dataset-links) for training and testing of various tasks. <br>
 [**2024.12.23**] The **pretrained weights**  of the four task models were released separately.  <br>
 [**2024.12.23**] Released test code for four image restoration tasks: image deraining, image denoising, image dehazing, and image inpainting. <br>
+[**2024.12.19**] Added [dataset links](https://github.com/hejh8/CycleRDM#dataset-links) for training and testing of various tasks. <br>
 
 ## How to Run the Code?
 
