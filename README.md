@@ -106,11 +106,11 @@ You can downlaod our pre-training models from [[Google Drive]](https://drive.goo
 
 ### Evaluation
 Before performing the following steps, please download our pretrained model first. To evalute our method on image restoration, please modify the benchmark path and model path. 
-You need to modify ```test.py and datasets.py``` according to your environment and then
+You need to modify ```test_ir.py and datasets.py``` according to your environment and then
 
 ```bash
 cd CycleRDM/image_ir
-python ir_test.py 
+python test_ir.py 
 ```
 
 
