@@ -156,9 +156,12 @@ If our code helps your research or work, please consider citing our paper.
 The following are BibTeX references:
 
 ```
-
-
-
+@article{xue2024unified,
+  title={Unified Image Restoration and Enhancement: Degradation Calibrated Cycle Reconstruction Diffusion Model},
+  author={Xue, Minglong and He, Jinhong and Palaiahnakote, Shivakumara and Zhou, Mingliang},
+  journal={arXiv preprint arXiv:2412.14630},
+  year={2024}
+}
 ```
 
 ---
