@@ -24,7 +24,7 @@
 
  Clone Repo
  ```bash
- git clone https://github.com/He-Jinhong/CFGW.git
+ git clone https://github.com/hejh8/CycleRDM.git
  cd CycleRDM  
  ```
 Create Conda Environment and Install Dependencies:
