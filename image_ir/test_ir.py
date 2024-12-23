@@ -60,6 +60,7 @@ def main():
     torch.backends.cudnn.benchmark = True
 
     # data loading
+    print("Current Task '{}'".format(config.data.task))
     print("Current dataset '{}'".format(config.data.val_dataset))
     DATASET = datasets.__dict__[config.data.type](config)
     _, val_loader = DATASET.get_loaders()
