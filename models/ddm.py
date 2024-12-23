@@ -17,13 +17,9 @@ import cv2
 import numpy as np
 import torchvision.transforms.functional as TF
 from torch.utils.tensorboard import SummaryWriter
-import clip
-# from sci import EnhanceNetwork
+# import clip
 from tqdm import tqdm
 import pyiqa
-# from vgg_ploss import FeatureExtractor
-# device = "cuda" if torch.cuda.is_available() else "cpu"
-# print(device)
 # load clip
 # c_model, preprocess = clip.load( "/home/ubuntu/Image-restoration/CycleRDM/CLIP/ViT-B-32.pt", device=torch.device("cpu"))  # ViT-B/32
 # c_model.to(device)
