@@ -21,7 +21,7 @@ def parse_args_and_config():
     parser.add_argument("--image_folder", default='', type=str,
                         help="Location to save restored images")
     parser.add_argument('--seed', default=20826, type=int, metavar='N',
-                        help='Seed for initializing training (default: 230)')
+                        help='Seed for initializing training (default: 20826)')
     args = parser.parse_args()
 
     with open(os.path.join("configs", args.config), "r") as f:
